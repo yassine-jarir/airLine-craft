@@ -1,4 +1,207 @@
+ 
+ 
  body{
     margin: 0;
     font-family: monospace;
  }
+
+/* css for serves */
+*{
+   padding: 0;
+   margin: 0;
+   
+   } 
+   .titel1{
+   color: #18599C ;
+   margin-left:30px;
+   text-align: center;
+   
+   }
+   .titel3{
+       color: #18599C ;
+   margin-left:30px;
+
+
+
+
+   }
+   .text2{
+       color: #107bd3;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 1rem;
+       margin-left:30px;
+    
+   }
+   .center2{
+       display: flex;
+       position: relative;
+   
+   }
+   .image1{
+       position: absolute;
+       
+       z-index: 1;
+      
+      
+      
+   }
+   .image2{
+       position: absolute;
+      top: 50px;
+      left: 100px;
+       
+      
+   }
+   .image3{
+       position: absolute;
+        right: 0;
+        top: 240px;
+
+   }
+   .image4{
+       position: absolute;
+       top: 270px;
+      
+       
+   }
+.canter3{
+  
+  
+   margin-top: 420px;
+}
+
+.servse {
+   list-style-type:circle ;
+   padding-left: 20px;
+   font-family: Arial, sans-serif; 
+   font-size: 18px; 
+   color: #333; 
+   margin-left:30px;
+}
+
+.servse li {
+   margin-bottom: 10px;
+}
+
+.servse li::marker {
+  
+   color: #000000; 
+   font-size:  30px
+}
+
+
+
+@keyframes appear{
+   
+from{
+   opacity: 0;
+ transform: translateX(-100px);
+}
+to {
+   opacity: 1;
+   transform: translateX(0px);
+   
+}
+
+
+
+}
+
+.image1,.image2,.image3,.image4
+{
+   animation: apper linear;
+   animation-timeline: view();
+   animation-range: entry 30% cover 40%   ;
+}
+
+.buttonh{
+background-color:  #D14A37;
+padding: 5px 20px 5px 20px;
+border-radius: 54px;
+color: white;
+border: none;
+margin-left: 330px;
+}
+
+.avion{
+display: none;
+}
+.center5{
+   display: none;
+}
+
+@media (min-width: 480px){
+   .avion,.center5{
+       display:inline;
+        }
+ 
+   .center2{
+       display: none;
+       position: relative;
+   } 
+   .center1{
+   
+       grid-row: 2;
+
+       position: relative;
+   } 
+   .center{
+       display:grid;
+       grid-template-rows: (2,1fr);
+   }
+   .titel1{
+       color: #18599C ;
+       margin-left:30px;
+      font-size: 4rem;
+      
+       
+       }
+       .titel3{
+       color: #18599C ;
+       margin-left:30px;
+       font-size: 4rem;
+     
+       }
+       .text2{
+           color: #107bd3;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 3rem;
+           margin-left:30px;
+        
+       }
+       .servse{
+           font-size: 3rem;
+
+       }
+     
+       .avion{
+           position: absolute;
+           width:250px;
+           height:250px;
+           
+           
+          
+          
+          
+       }
+       .logomaroc{
+           position: absolute;
+           width:250px;
+           height:250px;
+          
+           
+          
+       }
+       .logo12{
+           position: absolute;
+           width:250px;
+           height:250px;
+          
+           
+       }
+  
+}    
+
+
+
+   
