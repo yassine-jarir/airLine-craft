@@ -63,7 +63,7 @@ body{
   
 font-family: Roboto-Light;
 color: #6A7783;
-font-size:14px;
+font-size:13px;
 line-height: 23px;
 
 }
@@ -104,13 +104,15 @@ left: 0px;
 top: -1px;
 }
 .cadre1 img{
+  top: 1px;
   width: 80px;
+  position: absolute;
+  right: 0px;
 }
 .cadre1{
-width:70px ;
-position: relative;
-left: 320px;
-top: 10px;
+  position: relative;
+height: 70px;
+
 }
 .aviation img,.energy img,.nautic img,.security img{
 width: 40px;
@@ -119,4 +121,119 @@ width: 40px;
 .energy, .security, .aviation, .nautic{
 text-align: center;
 }
-/* -----------------------------------------FIN :boukadia------------------------------------ */
+.energy-logo, .aviation-logo, .security-logo, .nautic-logo{
+  display: none;
+
+}
+
+
+@media screen and (min-width: 1024px) { 
+  .service-body{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+ .service{
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  height: 380px;
+  align-content: center;
+ }
+ .energy-logo, .aviation-logo, .security-logo, .nautic-logo{
+  display: inline;
+
+}
+ .service .energy{
+  
+  align-content: center;
+  width:200px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #185A9E ;
+  border-radius: 90px;
+  /* margin-top: 50px; */
+ }
+ .service .aviation{
+  
+  align-content: center;
+  width:200px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #185A9E ;
+  border-radius: 90px;
+  margin-top: -40px;
+ }
+ .service .nautic{
+  
+  align-content: center;
+  width:200px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #185A9E ;
+  border-radius: 90px;
+  /* margin-top: 50px; */
+ }
+ .service .security{
+  align-content: center;
+  width:200px;
+  height: 250px;
+  background-color: #fff;
+  border: 1px solid #185A9E ;
+  border-radius: 90px;
+  margin-top: -40px;
+ }
+.energy .energy-descri, .aviation .aviation-descri, .nautic .nautic-descri, .security .security-descri{
+  color: #0305229d;
+ }
+ 
+.our-service{
+  margin: 10px 10px 20px 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+.our-team{
+  margin: 10px 20px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-mission{
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.our-mission img, .our-team img, .our-service img{
+  
+  width: 310px;
+  height: 300px;
+  border-radius: 18.78px;
+  margin-bottom: -60px;
+}
+.mission-descri, .service-descri, .team-descri{
+  
+  font-family: Roboto-Light;
+  color: #6A7783;
+  font-size:25px;
+  line-height: 35px;
+  
+  }
+   .our-mission .mission-descri{
+    margin-top: 0px;
+    margin-right: 15px;
+    text-align: center;
+  
+  } 
+  .our-team .team-descri{
+    margin-top: 70px;
+    text-align: center;
+  
+  } 
+
+ .aventage{
+  display: flex;
+ }
+  
+}
+/* ------------------------------------------FIN  BOUKADIA------------------------------------------------ */
