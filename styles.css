@@ -1,4 +1,94 @@
- body{
-    margin: 0;
-    font-family: monospace;
- }
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*meryam*/
+body {
+   font-family: Arial, sans-serif;
+}
+header {
+   background-color: #f8f9fa;
+   padding: 10px;
+}
+.Mnav {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Mnav img {
+   max-width: 25%;
+   height: auto;
+   position: relative;
+   right: 150px;
+}
+.Mrechercher p{
+   color: #ffffff;
+   font-weight: 5px;
+}
+.Mrechercher {
+   text-align: center;
+   padding: 20px;
+}
+main{
+   background-image: url(./Frame\ 1261154533.png);
+   background-size: cover;
+   background-position: center;
+   margin-bottom: 20px;
+}
+input[type="email"],
+input[type="submit"] {
+   text-align: center;
+   margin: 10px 0;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+footer {
+   background-color: #18599C;
+   color: #f8f9fac8;
+   padding: 20px;
+   text-align: center;
+}
+footer section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Mdiscription, .MServices, .MAbout, .MSupport {
+   margin: 10px 0;
+}
+.Mdiscription img {
+   max-width: 40%;
+   height: auto;
+}
+.Mrésaux img {
+   width: 35px;
+   margin: 5px;
+}
+@media (min-width: 400px) {
+   .Mnav {
+       flex-direction: row;
+       justify-content: space-between;
+   }
+   .Mpartie-rech {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+   input[type="email"],
+   input[type="submit"] {
+       width: auto;
+       margin: 10px;
+   }
+   footer section {
+       flex-direction: row;
+       justify-content: space-around;
+   }
+   .Mdiscription, .MServices, .MAbout, .MSupport {
+       flex: 1;
+       margin: 0 10px;
+   }
+}
+/*meryam*/
