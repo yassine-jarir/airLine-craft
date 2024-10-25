@@ -35,6 +35,7 @@ body{
   margin-top: -40px;
   display: flex;
   justify-content: space-between;
+  
 }
 .our-mission h2, .our-service h2, .our-team h2{
   color: #18599C;
@@ -127,7 +128,7 @@ text-align: center;
 }
 
 
-@media screen and (min-width: 1024px) { 
+@media screen and (min-width: 1000px) { 
   .service-body{
     display: flex;
     flex-direction: column-reverse;
@@ -150,7 +151,7 @@ text-align: center;
   background-color: #fff;
   border: 1px solid #185A9E ;
   border-radius: 90px;
-  /* margin-top: 50px; */
+  margin-left: 20px;
  }
  .service .aviation{
   
@@ -170,7 +171,7 @@ text-align: center;
   background-color: #fff;
   border: 1px solid #185A9E ;
   border-radius: 90px;
-  /* margin-top: 50px; */
+ 
  }
  .service .security{
   align-content: center;
@@ -189,19 +190,27 @@ text-align: center;
   margin: 10px 10px 20px 10px;
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  width: 310px;
+  gap: 0px 30px;
+
 }
 .our-team{
   margin: 10px 20px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 310px;
+
 }
 .our-mission{
   margin: 10px 10px 0px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 310px;
+
 }
 
 .our-mission img, .our-team img, .our-service img{
@@ -233,7 +242,10 @@ text-align: center;
 
  .aventage{
   display: flex;
+  justify-content: space-around;
+
  }
+ 
   
 }
 /* ------------------------------------------FIN  BOUKADIA------------------------------------------------ */
