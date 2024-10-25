@@ -279,7 +279,7 @@ nav{
  .reservationHome{
   height: 60vh;
    padding: 8px 4px;
-   top: -675px;
+   top: -522px;
  }
  .reservationHomeContainer{
   display: flex;
@@ -589,11 +589,8 @@ text-align: center;
     font-family: monospace;
  }
 
-*{
-    padding: 0;
-    margin: 0;
-    
-    } 
+
+ 
     .titel1{
     color: #18599C ;
     margin-left:30px;
