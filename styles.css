@@ -169,10 +169,10 @@ nav{
   left: 0;
 }
 .top-border {
-  top: 0;
+  top: -45px;
 }
 .bottom-border {
-  bottom: 0;
+  bottom: -100px;
 }
 .top-border:after,
 .top-border:before,
@@ -222,6 +222,119 @@ nav{
 .p2{
   font-size: 20px;
 } 
+.burgger{
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.reserCnimg{
+  display: none;
+}
+.reserCn1{
+  display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.demon{
+  align-items: center;
+  display: flex;
+    padding: 2rem; 
+    margin-top: -20px;
+     margin-top: -180px;
+}
+ 
+@media (max-width: 1258px) {
+  .exploreP{
+    top: 440px;
+  }
+  .reservationHome{
+    width: 90%;
+  }
+}
+@media (max-width: 940px) {
+  .navText{
+    display: none;
+  }
+  .mainNav{
+    padding: 1rem 1rem;
+  }
+  .burgger{
+    display: block;
+  }
+
+}
+
+@media (max-width: 817px) {
+  .reservationHC{
+    padding: 8px 5px;
+ 
+  }
+ .exploreP{
+
+  top: 313px !important;
+  font-size: 1.7rem !important;
+    
+ }
+ .reservationHome{
+  height: 60vh;
+   padding: 8px 4px;
+   top: -675px;
+ }
+ .reservationHomeContainer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  gap: 15px;
+ }
+ .reserCn{
+  display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto;
+ }
+ .reserCn1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin: 0 auto;
+  
+ }
+ .reserCnimg{
+  display: block;
+  width: 80px;
+ }
+ .demon{
+  margin-top: -500px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .demon img{
+  width: 350px !important;
+  margin-bottom: 23px;
+ }
+ .textContainer0{
+  display: none;
+ }
+ .navContainer img{
+  height: 100vh !important;
+  
+ }
+
+}
+@media (max-width: 750px) {
+  .exploreP{
+    top: 310px !important;  
+  }
+  .reservationHomeContainer{
+    width: 100%;
+  }
+  }
 /* yassine end */
 
 /* boukadia start */
