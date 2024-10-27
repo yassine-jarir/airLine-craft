@@ -123,6 +123,12 @@ nav{
   padding: 8px 15px;
    background-color: #ffffff99;
    border-radius: 15px;
+
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 .navClick{
     cursor: pointer;
@@ -363,12 +369,12 @@ nav{
   margin: 70px 0px 0px 0px;
 }
 .our-service{
-  margin-top: -39px;
+  margin-top: 9px;
   display: flex;
   justify-content: space-between;
 }
 .our-team{
-  margin-top: -40px;
+  margin-top: 9px;
   display: flex;
   justify-content: space-between;
   
@@ -897,6 +903,9 @@ justify-items: center;
 
 body{
    height: 100vh;
+}
+.center1{
+  position: relative;
 }
 .h2-and-title{
    color: blue;
