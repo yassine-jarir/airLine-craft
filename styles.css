@@ -1149,7 +1149,16 @@ header {
 .av {
   position: relative;
   bottom: 150px;
+  
   right: 180px;
+
+  width: 800px;
+  margin-top: 7rem;
+  margin: auto;
+}
+.av img {
+  width: 800px;
+  margin-top: 7rem;
 }
 
 header .nav {
@@ -1186,6 +1195,18 @@ main{
   position: relative;
   bottom: 140px;
 }
+.gmail{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 5rem;
+}
+.gmail2{
+  width: 100px;
+  height: 44px;
+  margin-top: 9px;
+}
 
 .Mrechercher {
   text-align: center;
@@ -1193,6 +1214,8 @@ main{
   margin: 10px auto;
   max-width: 600px;
   border-radius: 8px;
+  color: white;
+  margin-bottom: 30px;
 }
 
 .Mrechercher input[type="email"] {
@@ -1229,6 +1252,7 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  padding: 3rem 0
 }
 
 footer section {
@@ -1263,18 +1287,23 @@ footer .liste, .Mrésaux p {
   text-align: center;
 }
 footer .Mdiscription img {
-  width: 100px;
+  width: 70px;
   position: relative;
-  right: 90px;
+  top: -15px;
+  height: 50px;
+ 
 }
-
+.Mdi{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: white;
+}
 footer .Mdiscription h2{
-  position: relative;
-  bottom: 90px;
+ 
 }
 footer .Mdiscription p{
-  position: relative;
-  bottom: 90px;
+ 
 }
 /*meryam salhi*/
 
