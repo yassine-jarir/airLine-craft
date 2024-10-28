@@ -1,4 +1,4 @@
-Mbody {
+.plm {
    font-family: serif;
    margin: 0;
    padding: 0;
@@ -6,7 +6,7 @@ Mbody {
    line-height: 1.5;
 }
 
-Mheader {
+.wxc {
    padding-top: 50px;
 }
 
@@ -16,7 +16,7 @@ Mheader {
    right: 180px;
 }
 
-Mheader .nav {
+.wxc .nav {
    border-radius: 15px;
    display: flex;
    flex-direction: row;
@@ -34,7 +34,7 @@ Mheader .nav {
    bottom: 80px;
 }
 
-Mheader .logo img {
+.wxc .logo img {
    width: 10%;
    height: 7%;
    position: relative;
@@ -42,13 +42,13 @@ Mheader .logo img {
    bottom: 5px;
 }
 
-Mheader .nav p {
+.wxc .nav p {
    margin: 0;
    font-size: 20px;
    font-weight: bold;
 }
 
-Mmain{
+.aqw{
    height: 300px;
    background-image: url(./img/Frame\ 1261154533.png);
    background-size: cover;
@@ -88,12 +88,12 @@ input[type="email"],
    bottom: 25px;
  }
 
-Mmain .Mrechercher p {
+.aqw .Mrechercher p {
    font-size: 30px;
    position: relative;
    bottom: 10px;
 }
-Mfooter {
+.azertyy {
    background-color: #18599C;
    display: flex;
    flex-direction: column;
@@ -101,7 +101,7 @@ Mfooter {
    gap: 15px;
 }
 
-Mfooter section {
+.azertyy section {
    width: 100%;
    display: flex;
    justify-content: space-around;
@@ -110,39 +110,39 @@ Mfooter section {
    max-width: 1200px;
 }
 
-Mfooter div {
+.azertyy div {
    max-width: 250px;
    text-align: center;
 }
 
-Mfooter h3 {
+.azertyy h3 {
    color: #ffffff;
 }
 
-Mfooter p {
+.azertyy p {
    color: #A7A7A7;
    margin: 5px 0;
 }
 
-Mfooter img {
+.azertyy img {
    width: 35px;
    margin: 5px;
 }
 
-Mfooter .liste, .Mrésaux p {
+.azertyy .liste, .Mrésaux p {
    text-align: center;
 }
-Mfooter .Mdiscription img {
+.azertyy .Mdiscription img {
    width: 100px;
    position: relative;
    right: 90px;
 }
 
-Mfooter .Mdiscription h2{
+.azertyy .Mdiscription h2{
    position: relative;
    bottom: 90px;
 }
-Mfooter .Mdiscription p{
+.azertyy .Mdiscription p{
    position: relative;
    bottom: 90px;
 }
@@ -150,24 +150,24 @@ Mfooter .Mdiscription p{
 
 @media (max-width: 400px) {   
       
-   Mheader {      
+   .wxc {      
        display: none;   
    }   
       
-   Mbody {      
+   .plm {      
        font-size: 14px;      
        line-height: 1.4;      
        position: relative;   
    }   
       
-   Mmain {      
+   .aqw {      
        height: 200px;      
        background-size: cover;      
        position: relative;      
        top: 10px;   
    }  
 
-   Mmain .Mrechercher p{
+   .aqw .Mrechercher p{
       font-size: 20px;
    }
    .Mrechercher {      
@@ -179,10 +179,10 @@ Mfooter .Mdiscription p{
        width: 60%;   
    }   
 
-   Mfooter{
+   .azertyy{
       margin-top: 80px;
    }  
-   Mfooter section {
+   .azertyy section {
       margin-left: 10px;
       margin-right: 10PX;          
        flex-direction: row;      
@@ -190,23 +190,23 @@ Mfooter .Mdiscription p{
        gap: 10px;   
    } 
 
-   Mfooter div {      
+   .azertyy div {      
        max-width: 100%;      
        text-align: center;   
    }   
    
-   Mfooter .Mdiscription img {      
+   .azertyy .Mdiscription img {      
        width: 80px;      
        position: relative;      
        top: 50px;   
    }   
 
-   Mfooter .Mdiscription p {      
+   .azertyy .Mdiscription p {      
        position: relative;      
        top: 5px;   
    }   
 
-   Mfooter .Mdiscription h2 {      
+   .azertyy .Mdiscription h2 {      
        margin: 0;      
        text-align: center;      
        position: relative;      
