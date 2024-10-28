@@ -1133,92 +1133,226 @@ label{
 
 
 /* end zakaria */
-/*meryam*/
-body {
-  font-family: Arial, sans-serif;
-}
-header {
-  background-color: #f8f9fa;
-  padding: 10px;
-}
-.Mnav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.Mnav img {
-  max-width: 25%;
-  height: auto;
-  position: relative;
-  right: 150px;
-}
-.Mrechercher p{
+/* -------------------------------- start meryam ----------------------- */
+/* body {
+  font-family: serif;
+  margin: 0;
+  padding: 0;
   color: #ffffff;
-  font-weight: 5px;
+  line-height: 1.5;
+} */
+
+header {
+  padding-top: 50px;
 }
-.Mrechercher {
-  text-align: center;
-  padding: 20px;
+
+.av {
+  position: relative;
+  bottom: 150px;
+  right: 180px;
 }
+
+header .nav {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 40px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  gap: 10px;
+  color: #18599C;
+  background-color: #F1F1F1;
+  position: relative;
+  left: 17%;
+  bottom: 80px;
+}
+
+header .logo img {
+  width: 10%;
+  height: 7%;
+  position: relative;
+  left: 100px;
+  bottom: 5px;
+}
+
+header .nav p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 main{
+  height: 300px;
   background-image: url(./img/Frame\ 1261154533.png);
   background-size: cover;
   background-position: center;
-  margin-bottom: 20px;
-}
-input[type="email"],
-input[type="submit"] {
-  text-align: center;
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  position: relative;
+  bottom: 140px;
 }
 
+.Mrechercher {
+  text-align: center;
+  padding: 25px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.Mrechercher input[type="email"] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+}
+
+.Mrechercher input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #D14A37;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="email"],
+input[type="submit"]{
+  position: relative;
+  bottom: 25px;
+}
+
+main .Mrechercher p {
+  font-size: 30px;
+  position: relative;
+  bottom: 10px;
+}
 footer {
   background-color: #18599C;
-  color: #f8f9fac8;
-  padding: 20px;
-  text-align: center;
-}
-footer section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
-.Mdiscription, .MServices, .MAbout, .MSupport {
-  margin: 10px 0;
+
+footer section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
 }
-.Mdiscription img {
-  max-width: 40%;
-  height: auto;
+
+footer div {
+  max-width: 250px;
+  text-align: center;
 }
-.Mrésaux img {
+
+footer h3 {
+  color: #ffffff;
+}
+
+footer p {
+  color: #A7A7A7;
+  margin: 5px 0;
+}
+
+footer img {
   width: 35px;
   margin: 5px;
 }
-@media (min-width: 400px) {
-  .Mnav {
-      flex-direction: row;
-      justify-content: space-between;
+
+footer .liste, .Mrésaux p {
+  text-align: center;
+}
+footer .Mdiscription img {
+  width: 100px;
+  position: relative;
+  right: 90px;
+}
+
+footer .Mdiscription h2{
+  position: relative;
+  bottom: 90px;
+}
+footer .Mdiscription p{
+  position: relative;
+  bottom: 90px;
+}
+/*meryam salhi*/
+
+@media (max-width: 400px) {   
+     
+  header {      
+      display: none;   
+  }   
+     
+  body {      
+      font-size: 14px;      
+      line-height: 1.4;      
+      position: relative;   
+  }   
+     
+  main {      
+      height: 200px;      
+      background-size: cover;      
+      position: relative;      
+      top: 10px;   
+  }  
+
+  main .Mrechercher p{
+     font-size: 20px;
   }
-  .Mpartie-rech {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
-  input[type="email"],
-  input[type="submit"] {
-      width: auto;
-      margin: 10px;
-  }
+  .Mrechercher {      
+      padding: 15px;      
+      margin: 5px auto;      
+      width: 90%;   
+  }   
+  .Mrechercher input[type="email"] {      
+      width: 60%;   
+  }   
+
+  footer{
+     margin-top: 80px;
+  }  
   footer section {
-      flex-direction: row;
-      justify-content: space-around;
+     margin-left: 10px;
+     margin-right: 10PX;          
+      flex-direction: row;      
+      align-items: center;      
+      gap: 10px;   
+  } 
+
+  footer div {      
+      max-width: 100%;      
+      text-align: center;   
+  }   
+  
+  footer .Mdiscription img {      
+      width: 80px;      
+      position: relative;      
+      top: 50px;   
+  }   
+
+  footer .Mdiscription p {      
+      position: relative;      
+      top: 5px;   
+  }   
+
+  footer .Mdiscription h2 {      
+      margin: 0;      
+      text-align: center;      
+      position: relative;      
+      bottom: 5px;   
   }
-  .Mdiscription, .MServices, .MAbout, .MSupport {
-      flex: 1;
-      margin: 0 10px;
+
+  .MServices {
+     position: relative;
+     bottom: 10px;
   }
 }
-/*meryam*/
+
+/* -------------------------------- end meryam ----------------------- */
