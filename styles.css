@@ -149,17 +149,17 @@ footer .Mdiscription p{
 /*meryam salhi*/
 
 @media (max-width: 400px) {   
-   /* Hide the header */   
+      
    header {      
        display: none;   
    }   
-   /* Adjust body font size and line height */   
+      
    body {      
        font-size: 14px;      
        line-height: 1.4;      
        position: relative;   
    }   
-   /* Main section adjustments */   
+      
    main {      
        height: 200px;      
        background-size: cover;      
