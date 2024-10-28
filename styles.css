@@ -16,7 +16,7 @@
    right: 180px;
 }
 
-.wxc .nav {
+.wxc .nv {
    border-radius: 15px;
    display: flex;
    flex-direction: row;
@@ -42,7 +42,7 @@
    bottom: 5px;
 }
 
-.wxc .nav p {
+.wxc .nv p {
    margin: 0;
    font-size: 20px;
    font-weight: bold;
@@ -57,7 +57,7 @@
    bottom: 140px;
 }
 
-.Mrechercher {
+.aqw .Mrechercher {
    text-align: center;
    padding: 25px;
    margin: 10px auto;
